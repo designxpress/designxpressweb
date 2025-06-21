@@ -269,4 +269,9 @@ footer {
   color: #ccc;
   font-size: 1em;
 }
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh; /* reduce height for small screens */
+  }
+}
 
