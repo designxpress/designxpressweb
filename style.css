@@ -38,8 +38,9 @@ body {
 
 /* Hero */
 .hero {
-  height: 850px;
-  background: url('Hero section-01.jpg') no-repeat center / cover;
+  height: 100vh; /* Viewport height: full screen height */
+  max-height: 850px; /* Limit max height for large screens */
+  background: url('images/your-image.jpg') no-repeat center center / cover;
   filter: brightness(0.8);
 }
 
