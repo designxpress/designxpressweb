@@ -38,7 +38,7 @@ body {
 
 /* Hero */
 .hero {
-  height: 650px;
+  height: 850px;
   background: url('Hero section-01.jpg') no-repeat center / cover;
   filter: brightness(0.8);
 }
