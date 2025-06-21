@@ -39,7 +39,7 @@ body {
 /* Hero */
 .hero {
   height: 650px;
-  background: url('images/Hero\ section-01.jpg') no-repeat center / cover;
+  background: url('Hero section-01.jpg') no-repeat center / cover;
   filter: brightness(0.8);
 }
 
