@@ -38,11 +38,13 @@ body {
 
 /* Hero */
 .hero {
-  height: 100vh; /* Viewport height: full screen height */
-  max-height: 850px; /* Limit max height for large screens */
-  background: url('Hero section-01.jpg') no-repeat center center / cover;
+  height: 100vh;
+  max-height: 850px;
+  background: url('images/your-image.jpg') no-repeat center center / cover;
   filter: brightness(0.8);
+  background-color: #000; /* fallback in case image fails */
 }
+
 
 /* Intro */
 .intro-section {
